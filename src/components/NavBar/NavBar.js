@@ -9,13 +9,13 @@ const NavBar = () => {
         
         <div class="nav-margin">
             <nav class="rubikMono">
-                <Link to='/'><img class="logo" src=".\img\logo horizontal PNG textoNegro.png" alt="logo tintorería OMBÚ"/></Link>
+                <Link to='/ombu-app/'><img class="logo" src=".\img\logo horizontal PNG textoNegro.png" alt="logo tintorería OMBÚ"/></Link>
                 <div>
                     <NavLink
                     exact
                     activeClassName="navbar__link--active"
                     className="navbar__link"
-                    to="/ombu-app"
+                    to="/ombu-app/"
                     >
                         Home
                     </NavLink>
