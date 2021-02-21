@@ -15,7 +15,7 @@ const NavBar = () => {
                     exact
                     activeClassName="navbar__link--active"
                     className="navbar__link"
-                    to="/"
+                    to="/ombu-app"
                     >
                         Home
                     </NavLink>
