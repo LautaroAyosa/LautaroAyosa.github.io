@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ombu-app/static/css/main.d9590479.chunk.css",
+    "main.js": "/ombu-app/static/js/main.6744eb3b.chunk.js",
+    "main.js.map": "/ombu-app/static/js/main.6744eb3b.chunk.js.map",
+    "runtime-main.js": "/ombu-app/static/js/runtime-main.4c6d4eb1.js",
+    "runtime-main.js.map": "/ombu-app/static/js/runtime-main.4c6d4eb1.js.map",
+    "static/js/2.a43acdc5.chunk.js": "/ombu-app/static/js/2.a43acdc5.chunk.js",
+    "static/js/2.a43acdc5.chunk.js.map": "/ombu-app/static/js/2.a43acdc5.chunk.js.map",
+    "static/js/3.f1c71e32.chunk.js": "/ombu-app/static/js/3.f1c71e32.chunk.js",
+    "static/js/3.f1c71e32.chunk.js.map": "/ombu-app/static/js/3.f1c71e32.chunk.js.map",
+    "index.html": "/ombu-app/index.html",
+    "static/css/main.d9590479.chunk.css.map": "/ombu-app/static/css/main.d9590479.chunk.css.map",
+    "static/js/2.a43acdc5.chunk.js.LICENSE.txt": "/ombu-app/static/js/2.a43acdc5.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/ombu-app/static/media/color explosion.c6271ddf.png",
+    "static/media/logo.6ce24c58.svg": "/ombu-app/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c6d4eb1.js",
+    "static/js/2.a43acdc5.chunk.js",
+    "static/css/main.d9590479.chunk.css",
+    "static/js/main.6744eb3b.chunk.js"
+  ]
+}
