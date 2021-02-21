@@ -16,11 +16,11 @@ const Home = () => {
                          empresas que confían en nosotros</h2>
                         <a href='/contact'><button type="button" className="rubik600">Hacé tu consulta</button></a>
                     </div>
-                    <img className="posLogo" src="./img/logo Ombu PNG color.png" alt="logo tintorería OMBÚ color"/>
+                    <img className="posLogo" src=".\img\logo Ombu PNG color.png" alt="logo tintorería OMBÚ color"/>
                 </div>
 
                 <div className="more rubik">
-                    <img src="./img/expand-arrow.png" alt="arrow down"/>
+                    <img src=".\img\expand-arrow.png" alt="arrow down"/>
                 </div>
                 <div className="empresas">
                 </div>

@@ -7,20 +7,20 @@ const Contact = () => {
         <div>
             <div className="otrosMedios rubik">
                 <div>
-                    <a href="https://wa.link/6teqlb" target="_blank"><img src="../img/whatsapp logo.png" alt="whatsapp"/>
+                    <a href="https://wa.link/6teqlb" target="_blank"><img src=".\img\whatsapp logo.png" alt="whatsapp"/>
                     <phone>&nbsp;&nbsp; +54 011 36609100</phone></a>
                 </div>
                 <div>
-                    <a href="mailto: SergioAyosa@hotmail.com" target="_blank"><img src="../img/mail logo.png" alt="e-mail"/>
+                    <a href="mailto: SergioAyosa@hotmail.com" target="_blank"><img src=".\img\mail logo.png" alt="e-mail"/>
                     <e-mail>&nbsp;&nbsp; SergioAyosa@hotmail.com</e-mail></a>
                 </div>
                 <div className="-marg">
-                    <a href="https://www.linkedin.com/in/sergio-ayosa-a792b216a/" target="_blank"><img src="../img/linkedIn logo.png" alt="linkedIn"/>
+                    <a href="https://www.linkedin.com/in/sergio-ayosa-a792b216a/" target="_blank"><img src=".\img\linkedIn logo.png" alt="linkedIn"/>
                     <h4 className="rubik">&nbsp;&nbsp; Tintorería OMBÚ</h4></a>
                 </div>
             </div>
             <div className="imgContacto">
-                <img src="../img/contactanos via mail.png" alt="contactanos via mail"/>
+                <img src=".\img\contactanos via mail.png" alt="contactanos via mail"/>
             </div>
             <div className="rubik">
                 <div className="inferior">
