@@ -1,0 +1,70 @@
+html body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+.rubikMono {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.rubik600 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+}
+
+.rubik {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+.nav-margin {
+  margin: 0rem 5vw 0rem 6vw;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3vw;
+}
+
+nav .logo {
+  max-height: 3.5vw;
+  min-height: 50px;
+}
+
+nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav div .navbar__link {
+  list-style: none;
+  margin: 1.5rem;
+  font-size: 1vw;
+  color: black;
+  text-decoration: none;
+  padding: 0px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+nav div .navbar__link:hover {
+  color: #986ac7;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+nav div .navbar__link--active {
+  color: #986ac7;
+}
+/*# sourceMappingURL=NavBar.css.map */

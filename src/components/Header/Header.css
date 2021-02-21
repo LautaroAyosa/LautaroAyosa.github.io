@@ -1,0 +1,30 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: url("../../img/color explosion.png");
+  background-position: center;
+  background-size: 180%;
+  background-repeat: no-repeat;
+  height: 1.5vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: #2c2c04 0px 2px 5px;
+          box-shadow: #2c2c04 0px 2px 5px;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+header h1 {
+  color: white;
+  font-size: 1vw;
+}
+/*# sourceMappingURL=Header.css.map */

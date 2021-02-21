@@ -1,0 +1,313 @@
+@import '../../App';
+
+
+.otrosMedios {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    align-self: flex-end;
+
+    flex-direction: column;
+    margin: 7vw 5vw 0vw 0vw;
+    width: 25vw;
+    height: 11.15vw;
+    background: $secondaryColor;
+    border-radius: 10px 10px 0 0;
+    font-size: 1vw;
+    img {
+        height: 2vw;
+    }
+    div {
+        
+        a {
+            display: flex;
+            align-items: center;
+            margin: 1.1vw 0vw 0vw 5vw;
+            text-decoration: none;
+            color: black;
+            opacity: 0.6;
+            transition: 0.2s;
+            &:hover {
+                opacity: 1;
+                transition: 0.2s;
+                transform: scale(1.03);
+            }
+        }
+    }
+}
+
+.imgContacto img {
+    position: relative;
+    top: 3.15vw;
+    left: 6vw;
+    height: 15vw;
+
+}
+
+.-marg {
+    margin-top: -0.8vw;
+}
+
+
+    /* ------------- */
+    /* contactos + maps */
+
+.inferior {
+    display: flex;
+    margin-top: 2.82vw;
+    height: 23vw;
+    margin-bottom: 36px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background: $secondaryColor;
+    border-radius:0;
+}
+
+#map {
+    margin-left: 50px;
+    height: 20vw;
+    width: 23vw;
+    iframe {
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+    /* ------------- */
+    /* formulario de contacto */
+
+.enviado {
+    color: green;
+    font-size: 1vw;
+}
+
+.contacto-content {
+    width: 50vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.contacto-mensaje {
+    width: 50vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.contacto input[type=text]{
+    width: 100%;
+    height: 100%;
+    height: 2.1vw;
+    color: black;
+    padding-top: 1vw;
+    padding-left: 0.2vw;
+    font-size: 1vw;
+    margin-bottom: -6px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.contacto-mensaje input[type=text]{
+    width: 100%;
+    height: 100%;
+    height: 5vw;
+    color: black;
+    padding-top: 1vw;
+    padding-left: 0.6vw;
+    margin-bottom: -6px;
+    font-size: 1vw;
+    border: none;
+    outline: none;
+}
+
+.contacto-content label {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 0.05vw solid black;
+
+}
+
+.contacto-mensaje label {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 0.05vw solid black;
+}
+
+.contacto-content label::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    border-bottom: 0.15vw solid rgb(161, 96, 226);
+    transform: translateX(-100%);
+    transition: all .3s ease;
+}
+
+.contacto-mensaje label::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    border-bottom: 0.15vw solid rgb(161, 96, 226);
+    transform: translateX(-100%);
+    transition: all .3s ease;
+}
+
+.content-default {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    font-size: 0.8vw;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.content-default-mensaje {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    font-size: 0.8vw;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.contacto input:focus + .label-content .content-default, .contacto input:valid + .label-content .content-default {
+    transform: translateY(-130%);
+    font-size: 0.9vw;
+    color: black;
+}
+
+.contacto input:focus + .label-mensaje .content-default-mensaje, .contacto input:valid + .label-mensaje .content-default-mensaje {
+    transform: translateY(-370%);
+    font-size: 0.9vw;
+    color: black;
+}
+
+.contacto input:focus + .label-content::after, .contacto input:valid + .label-content::after{
+    transform: translateX(0%);
+}
+
+.contacto input:focus + .label-mensaje::after, .contacto input:valid + .label-mensaje::after{
+    transform: translateX(0%);
+}
+
+.contac {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 2.2vw;
+    width: 100%;
+    margin-top: 1vw;
+    margin-left: 0;
+    font-size: 1.4vw;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: url('../../img/color\ explosion.png');
+    background-position: center;
+    background-size: 100vw;
+    transition: .5s;
+    filter: saturate(0);
+    &:hover {
+        filter: saturate(1);
+    }
+}
+
+input[type=submit]:hover {
+    transition-duration: 0.5s;
+    background-position: center;
+    filter: saturate(0.9);
+    font-size: 1.5vw;
+
+}
+
+    /* ------------- */
+    /* nosotros */
+
+.tituloArt {
+    display: flex;
+    font-size: 3vw;
+    align-items: center;
+    margin-top: 1vw;
+    margin-left: 0vw;
+}
+
+.tituloArt::before {
+    content: 'desde ';
+    font-size: 1vw;
+    padding-right: 1vw;
+}
+
+.tituloArt::after {
+    content: ' Convirtiendo Clientes en amigos';
+    font-size: 1vw;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.contenidoArt {
+    display: flex;
+    margin-top: 3vw;
+    font-size: 1vw;
+}
+
+.slider1 figure{
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.contenidoArt {
+    margin-left: 0vw;
+    max-width: 55vw;
+}
+
+.subtitulo1 {
+    margin-top: -4vw;
+    margin-left: 3vw;
+    font-size: 1.3vw;
+}
+
+.right {
+    float: right;
+    margin-right: 3vw;
+    margin-top: 4.5vw;
+    justify-content: center;
+}
+
+.fotoRub {
+    background: salmon;
+    height: 22vw;
+    width: 15vw;
+}
+
+.fotoSer {
+background: seagreen;
+height: 22vw;
+}
+
+.linea {
+    margin-left: 7.5vw;
+    background: black;
+    height: 5vw;
+    width: 3px;
+}

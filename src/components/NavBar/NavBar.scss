@@ -1,0 +1,37 @@
+@import '../../App';
+
+.nav-margin {
+    margin: 0rem 5vw 0rem 6vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vw;
+    .logo {
+        max-height: 3.5vw;
+        min-height: 50px;
+    }
+    div {
+        display: flex;
+        
+        .navbar__link {
+            list-style: none;
+            margin: 1.5rem;
+            font-size: 1vw;
+            color: black;
+            text-decoration: none;
+            padding: 0px;
+            transition: 0.2s;
+            &:hover {
+                color: $primaryColor;
+                transition: 0.2s;
+                cursor: pointer;
+            }
+        }
+        .navbar__link--active {
+            color: $primaryColor
+        }
+    }
+}

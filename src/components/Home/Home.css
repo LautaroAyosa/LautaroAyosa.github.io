@@ -1,0 +1,158 @@
+html body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+.rubikMono {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.rubik600 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+}
+
+.rubik {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+.miniBackground {
+  background: #ede5f5;
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 20vw;
+  width: 100%;
+  margin: 8vw 0px 0px 0px;
+}
+
+.miniBackground div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 0px 0px 15vw;
+}
+
+.miniBackground div h1 {
+  font-size: 5vw;
+  margin: 30px 0px 0px 0px;
+}
+
+.miniBackground div h2 {
+  font-size: 1.5vw;
+  font-weight: 600;
+  font-style: italic;
+  margin: 0px;
+}
+
+.miniBackground div a {
+  width: 100%;
+}
+
+.miniBackground div a button {
+  width: 100%;
+  margin: 40px 0px 0px 0px;
+  height: 2.5vw;
+  font-size: 1vw;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0px;
+  border: none;
+  color: white;
+  background-image: url("../../img/color explosion.png");
+  background-position: center;
+  background-size: 60vw;
+  -webkit-transition: .8s;
+  transition: .8s;
+  -webkit-filter: saturate(0);
+          filter: saturate(0);
+}
+
+.miniBackground div a button:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-position: center;
+  -webkit-box-shadow: #303030 0px 1px 5px;
+          box-shadow: #303030 0px 1px 5px;
+  -webkit-filter: saturate(0.8);
+          filter: saturate(0.8);
+}
+
+.miniBackground img {
+  height: 25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-filter: saturate(0);
+          filter: saturate(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: -5vw 15vw 0px 0px;
+}
+
+.miniBackground img:hover {
+  -webkit-filter: saturate(1);
+          filter: saturate(1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-size: 0.75vw;
+  margin-top: 4vw;
+}
+
+.more:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  text-shadow: #9e9e9e 0px 2px 4px;
+}
+
+.more img {
+  height: 2.8vw;
+  padding-top: 0.5vw;
+  padding-left: 0.5vw;
+}
+
+.empresas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8vw;
+  background: #4b4b4b;
+  height: 80vh;
+  border-radius: 10px 10px 0px 0px;
+}
+/*# sourceMappingURL=Home.css.map */

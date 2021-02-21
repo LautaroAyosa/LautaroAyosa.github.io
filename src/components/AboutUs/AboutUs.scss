@@ -1,0 +1,55 @@
+@import '../../App';
+
+.aboutUs-margins {
+    margin: 20px 7vw 0px 7vw;
+
+    .aboutUs-pictures{
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 15vw;
+        margin: 70px 0px 50px 100px;
+        .fotoRuben {
+            background: $secondaryColor;
+            height: 22vw;
+            
+        }
+        .fotoSergio {
+            background: $secondaryColor;
+            height: 22vw;
+        }
+        .linea {
+            width: 1.5px;
+        }
+    }
+
+    .aboutUs-title {
+        display: flex;
+        font-size: 3vw;
+        align-items: center;
+        justify-content: center;
+        margin: -20px 0px 0px 0px;
+        &::before {
+            content: 'desde ';
+            font-size: 1.5vw;
+            padding-right: 1vw;
+        }
+        &::after {
+            content: ' Convirtiendo Clientes en amigos';
+            font-size: 1.5vw;
+            align-items: center;
+            padding-left: 1vw;
+        }
+    }
+
+    .aboutUs-subtitle {
+        margin: -3vw 0px 50px 50px;
+        font-size: 22px;
+    }
+    .aboutUs-article {
+        font-size: 0.9vw;
+        b {
+            font-size: 1.1vw;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: url('../../img/color\ explosion.png');
+    background-position: center;
+    background-size: 180%;
+    background-repeat: no-repeat;
+    height: 1.5vw;
+    align-items: center;
+    box-shadow: rgb(44, 44, 4) 0px 2px 5px;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    h1 {
+        color: white;
+        font-size: 1vw;
+    }
+}

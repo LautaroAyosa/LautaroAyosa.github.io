@@ -1,0 +1,93 @@
+html body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+.rubikMono {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.rubik600 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+}
+
+.rubik {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+.aboutUs-margins {
+  margin: 20px 7vw 0px 7vw;
+}
+
+.aboutUs-margins .aboutUs-pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: right;
+  width: 15vw;
+  margin: 70px 0px 50px 100px;
+}
+
+.aboutUs-margins .aboutUs-pictures .fotoRuben {
+  background: #ede5f5;
+  height: 22vw;
+}
+
+.aboutUs-margins .aboutUs-pictures .fotoSergio {
+  background: #ede5f5;
+  height: 22vw;
+}
+
+.aboutUs-margins .aboutUs-pictures .linea {
+  width: 1.5px;
+}
+
+.aboutUs-margins .aboutUs-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 3vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: -20px 0px 0px 0px;
+}
+
+.aboutUs-margins .aboutUs-title::before {
+  content: 'desde ';
+  font-size: 1.5vw;
+  padding-right: 1vw;
+}
+
+.aboutUs-margins .aboutUs-title::after {
+  content: ' Convirtiendo Clientes en amigos';
+  font-size: 1.5vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1vw;
+}
+
+.aboutUs-margins .aboutUs-subtitle {
+  margin: -3vw 0px 50px 50px;
+  font-size: 22px;
+}
+
+.aboutUs-margins .aboutUs-article {
+  font-size: 0.9vw;
+}
+
+.aboutUs-margins .aboutUs-article b {
+  font-size: 1.1vw;
+}
+/*# sourceMappingURL=AboutUs.css.map */
