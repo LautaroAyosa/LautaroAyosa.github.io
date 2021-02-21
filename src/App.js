@@ -16,7 +16,7 @@ function App() {
     <BrowserRouter>
       <Route path='/' component={Header} />
       <Route path='/' component={NavBar}/>
-      <Route exact path='/' component={Home}/>
+      <Route exact path='/ombu-app' component={Home}/>
       <Route path='/contact' component= {Contact}/>
       <Route path='/aboutUs' component= {AboutUs}/>
       <Route path='/' component={Footer}/>
