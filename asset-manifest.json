@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ombu-app/static/css/main.d9590479.chunk.css",
-    "main.js": "/ombu-app/static/js/main.157d51cf.chunk.js",
-    "main.js.map": "/ombu-app/static/js/main.157d51cf.chunk.js.map",
+    "main.css": "/ombu-app/static/css/main.37a96622.chunk.css",
+    "main.js": "/ombu-app/static/js/main.f779f132.chunk.js",
+    "main.js.map": "/ombu-app/static/js/main.f779f132.chunk.js.map",
     "runtime-main.js": "/ombu-app/static/js/runtime-main.4c6d4eb1.js",
     "runtime-main.js.map": "/ombu-app/static/js/runtime-main.4c6d4eb1.js.map",
     "static/js/2.a43acdc5.chunk.js": "/ombu-app/static/js/2.a43acdc5.chunk.js",
@@ -10,15 +10,21 @@
     "static/js/3.f1c71e32.chunk.js": "/ombu-app/static/js/3.f1c71e32.chunk.js",
     "static/js/3.f1c71e32.chunk.js.map": "/ombu-app/static/js/3.f1c71e32.chunk.js.map",
     "index.html": "/ombu-app/index.html",
-    "static/css/main.d9590479.chunk.css.map": "/ombu-app/static/css/main.d9590479.chunk.css.map",
+    "static/css/main.37a96622.chunk.css.map": "/ombu-app/static/css/main.37a96622.chunk.css.map",
     "static/js/2.a43acdc5.chunk.js.LICENSE.txt": "/ombu-app/static/js/2.a43acdc5.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/ombu-app/static/media/color explosion.c6271ddf.png",
-    "static/media/logo.6ce24c58.svg": "/ombu-app/static/media/logo.6ce24c58.svg"
+    "static/media/contactanosViaEmail.266737ca.png": "/ombu-app/static/media/contactanosViaEmail.266737ca.png",
+    "static/media/linkedIn-logo.307f6282.png": "/ombu-app/static/media/linkedIn-logo.307f6282.png",
+    "static/media/logo.6ce24c58.svg": "/ombu-app/static/media/logo.6ce24c58.svg",
+    "static/media/logoOmbuColor.f0fb86b3.png": "/ombu-app/static/media/logoOmbuColor.f0fb86b3.png",
+    "static/media/logoTextoNegro.696c8a2d.png": "/ombu-app/static/media/logoTextoNegro.696c8a2d.png",
+    "static/media/mail-logo.1a64fb52.png": "/ombu-app/static/media/mail-logo.1a64fb52.png",
+    "static/media/whatsapp-logo.e0dc7c57.png": "/ombu-app/static/media/whatsapp-logo.e0dc7c57.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4c6d4eb1.js",
     "static/js/2.a43acdc5.chunk.js",
-    "static/css/main.d9590479.chunk.css",
-    "static/js/main.157d51cf.chunk.js"
+    "static/css/main.37a96622.chunk.css",
+    "static/js/main.f779f132.chunk.js"
   ]
 }
