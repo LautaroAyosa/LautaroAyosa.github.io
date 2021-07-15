@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ombu-app/static/css/main.82c297de.chunk.css",
-    "main.js": "/ombu-app/static/js/main.2fa9dddb.chunk.js",
-    "main.js.map": "/ombu-app/static/js/main.2fa9dddb.chunk.js.map",
+    "main.js": "/ombu-app/static/js/main.ffaef35a.chunk.js",
+    "main.js.map": "/ombu-app/static/js/main.ffaef35a.chunk.js.map",
     "runtime-main.js": "/ombu-app/static/js/runtime-main.4c6d4eb1.js",
     "runtime-main.js.map": "/ombu-app/static/js/runtime-main.4c6d4eb1.js.map",
     "static/js/2.a43acdc5.chunk.js": "/ombu-app/static/js/2.a43acdc5.chunk.js",
@@ -13,18 +13,19 @@
     "static/css/main.82c297de.chunk.css.map": "/ombu-app/static/css/main.82c297de.chunk.css.map",
     "static/js/2.a43acdc5.chunk.js.LICENSE.txt": "/ombu-app/static/js/2.a43acdc5.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/ombu-app/static/media/color explosion.4eb17fc9.png",
-    "static/media/contactanosViaEmail.a9557ef2.png": "/ombu-app/static/media/contactanosViaEmail.a9557ef2.png",
+    "static/media/contactanosViaEmail.b1a439d8.webp": "/ombu-app/static/media/contactanosViaEmail.b1a439d8.webp",
     "static/media/linkedIn-logo.c8fe965c.png": "/ombu-app/static/media/linkedIn-logo.c8fe965c.png",
     "static/media/logo.6ce24c58.svg": "/ombu-app/static/media/logo.6ce24c58.svg",
-    "static/media/logoOmbuColor.deb46bea.png": "/ombu-app/static/media/logoOmbuColor.deb46bea.png",
+    "static/media/logoOmbuColor.4e8ce8b6.webp": "/ombu-app/static/media/logoOmbuColor.4e8ce8b6.webp",
     "static/media/logoTextoNegro.a562fb34.png": "/ombu-app/static/media/logoTextoNegro.a562fb34.png",
-    "static/media/mail-logo.1a64fb52.png": "/ombu-app/static/media/mail-logo.1a64fb52.png",
+    "static/media/mail-logo.41822aee.png": "/ombu-app/static/media/mail-logo.41822aee.png",
+    "static/media/rectangular-S-fondo.ddc91c6f.png": "/ombu-app/static/media/rectangular-S-fondo.ddc91c6f.png",
     "static/media/whatsapp-logo.17b3ac6d.png": "/ombu-app/static/media/whatsapp-logo.17b3ac6d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4c6d4eb1.js",
     "static/js/2.a43acdc5.chunk.js",
     "static/css/main.82c297de.chunk.css",
-    "static/js/main.2fa9dddb.chunk.js"
+    "static/js/main.ffaef35a.chunk.js"
   ]
 }
